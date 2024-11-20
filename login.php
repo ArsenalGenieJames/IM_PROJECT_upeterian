@@ -53,11 +53,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
     <div class="container">
-        <div class="row justify-content-center align-items-center vh-100">
+        <div class="row justify-content-center align-items-center">
 
             <div class="col-md-6 logcon md-5">
 
-                <img src="assets/secondary logo.png" alt="secondary logo" class="mb-4 img-fluid mx-auto d-block mb-5"
+                <img src="assets/secondary logo.png" alt="secondary logo" class="img-fluid mx-auto d-block"
                     style="height: 200px; width: 200px;">
                 <div class="card">
 

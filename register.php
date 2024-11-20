@@ -115,12 +115,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 
-                                <div class="mb-4">
-                                    <div class="input-group">
-                                        <span class="input-group-text"><i class="fas fa-envelope"></i></span>
-                                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
-                                    </div>
-                                </div>
+
 
                                 <div class="mb-4">
                                     <div class="input-group">
@@ -136,16 +131,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                     </div>
                                 </div>
 
-                                <div class="mb-4">
-                                    <div class="input-group">
-                                        <span class="input-group-text"><i class="fas fa-home"></i></span>
-                                        <input type="text" name="address" class="form-control" placeholder="Your Address" required>
-                                    </div>
-                                </div>
 
-                                <div class="form-check mb-4">
-                                    <input class="form-check-input" type="checkbox" required>
-                                    <label class="form-check-label">I agree to the</label>
+
+                                <div class="form-check mb-4 text-center">
+                                    <a href="login.php" style="text-decoration: none; color: black;">Log in</a>
+
                                 </div>
 
                                 <div class="text-center">
